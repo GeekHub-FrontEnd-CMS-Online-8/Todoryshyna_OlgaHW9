@@ -1,8 +1,5 @@
 var	gulp = require('gulp'),
-	sass = require('gulp-sass'),
-	browserSync = require('browser-sync'),
-	concat = require('gulp-concat');
-
+	sass = require('gulp-sass');
 gulp.task('sass', function () {
 	return gulp.src('app/sass/**/*.sass')
 		.pipe(sass())
